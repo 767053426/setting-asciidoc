@@ -1,0 +1,18 @@
+<application>
+  <component name="ConsoleFoldingSettings">
+    <option name="addedPositive">
+      <list>
+        <option value="[INFO]" />
+        <option value="[WARNING]" />
+        <option value="Downloaded from" />
+        <option value="Downloading from" />
+        <option value="Uploading to" />
+      </list>
+    </option>
+    <option name="addedNegative">
+      <list>
+        <option value="[INFO] Building" />
+      </list>
+    </option>
+  </component>
+</application>

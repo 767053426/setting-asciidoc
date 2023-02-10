@@ -1,0 +1,11 @@
+<application>
+  <component name="AceConfig">
+    <option name="allowedChars" value="abcdefghijklmnopqrstuvwxyz" />
+    <option name="cycleMode2" value="Jump to End" />
+    <option name="cycleMode4" value="Definition" />
+    <option name="minQueryLength" value="2" />
+    <option name="showSearchNotification" value="true" />
+    <option name="jumpModeRGB" value="-10516242" />
+    <option name="textHighlightRGB" value="-5842177" />
+  </component>
+</application>

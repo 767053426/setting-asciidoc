@@ -1,0 +1,64 @@
+<templateSet group="AsciiDoc">
+  <template name="ad-source" value="[source,$LANG$]&#10;.$FILENAME$&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="Source code" toReformat="false" toShortenFQNames="true">
+    <variable name="LANG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-tag-include" value="$cmt$ tag::$tagname$[]&#10;$SELECTION$&#10;$cmt$ end::$tagname$[]" description="AsciiDoc Tags to be used with include macro" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="cmt" expression="lineCommentStart()" defaultValue="" alwaysStopAt="false" />
+    <variable name="tagname" expression="" defaultValue="&quot;tagname&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-smart" value="$KEY$$SELECTION$$KEY$$END$" description="" toReformat="false" toShortenFQNames="false">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="ad-keyboard" value="kbd:[$VAR$]$END$" description="Keyboard" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="ad-table2" value="|===&#10;| $cell1header$ | $cell2header$&#10;&#10;| $cell1row1$&#10;| $cell2row1$&#10;&#10;| $cell1row2$&#10;| $cell2row2$&#10;|===" description="Table with two columns" toReformat="false" toShortenFQNames="true">
+    <variable name="cell1header" expression="" defaultValue="&quot;HeaderCell1&quot;" alwaysStopAt="true" />
+    <variable name="cell2header" expression="" defaultValue="&quot;HeaderCell2&quot;" alwaysStopAt="true" />
+    <variable name="cell1row1" expression="" defaultValue="&quot;Row1Cell1&quot;" alwaysStopAt="true" />
+    <variable name="cell2row1" expression="" defaultValue="&quot;Row1Cell2&quot;" alwaysStopAt="true" />
+    <variable name="cell1row2" expression="" defaultValue="&quot;Row2Cell1&quot;" alwaysStopAt="true" />
+    <variable name="cell2row2" expression="" defaultValue="&quot;Row2Cell2&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="`" value="`$SELECTION$`" description="" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="[" value="[$SELECTION$]" description="" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="&quot;" value="&quot;$SELECTION$&quot;" description="" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="'" value="'$SELECTION$'" description="" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="*" value="*$SELECTION$*" description="" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="_" value="_$SELECTION$_" description="" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+</templateSet>

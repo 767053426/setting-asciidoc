@@ -1,0 +1,10 @@
+<application>
+  <component name="NotificationConfiguration" systemNotifications="false">
+    <notification groupId="Plugin Error" displayType="NONE" shouldLog="false" />
+    <notification groupId="Plugin Update Results" displayType="NONE" shouldLog="false" />
+    <notification groupId="Plugins AutoSwitch" shouldLog="false" />
+    <notification groupId="Plugins Suggestion" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Plugins updates" displayType="NONE" shouldLog="false" />
+    <notification groupId="Rainbow Brackets Notification Group" displayType="NONE" />
+  </component>
+</application>
