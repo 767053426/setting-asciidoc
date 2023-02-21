@@ -1,9 +1,9 @@
 <scheme name="_@user_one-dark-native" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2021-12-06T09:33:36</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2021.2.3.0.0</property>
-    <property name="modified">2023-01-05T11:39:43</property>
+    <property name="created">2023-02-13T16:19:11</property>
+    <property name="ide">Idea</property>
+    <property name="ideVersion">2022.3.2.0.0</property>
+    <property name="modified">2023-02-13T16:21:34</property>
     <property name="originalScheme">one-dark-native</property>
   </metaInfo>
   <colors>
@@ -29,7 +29,7 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="b3965f" />
+        <option name="FOREGROUND" value="e5c07b" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -74,7 +74,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="44895b" />
+        <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -107,7 +107,7 @@
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="7b9225" />
+        <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -171,9 +171,6 @@
         <option name="EFFECT_COLOR" value="808fab" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="INJECTED_LANGUAGE_FRAGMENT">
-      <value />
     </option>
     <option name="KOTLIN_LABEL">
       <value />

@@ -2,11 +2,7 @@
   <component name="AdvancedSettings">
     <option name="settings">
       <map>
-        <entry key="compiler.automake.allow.when.app.running" value="true" />
         <entry key="editor.distraction.free.margin" value="0" />
-        <entry key="ide.open.readme.md.on.startup" value="false" />
-        <entry key="localHistory.daysToKeep" value="7" />
-        <entry key="show.diff.as.editor.tab" value="false" />
       </map>
     </option>
   </component>

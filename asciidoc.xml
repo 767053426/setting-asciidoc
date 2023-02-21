@@ -1,10 +1,9 @@
 <application>
   <component name="AsciidocApplicationSettings">
     <option name="pluginVersion" value="0.38.10" />
-    <AsciiDocPreviewSettings PreviewTheme="AsciiDoc light" KrokiUrl="" EnabledFoldedAttributeReferencedExperimental="true" HideErrorsByLanguage="">
+    <AsciiDocPreviewSettings PreviewTheme="AsciiDoc light" KrokiUrl="" HideErrorsByLanguage="">
       <option name="hideErrorsByLanguage" value="" />
       <attribute key="graphvizdot" value="/opt/homebrew/Cellar/graphviz/7.0.6/bin/dot" />
-      <attribute key="source-highlighter" value="rouge" />
     </AsciiDocPreviewSettings>
   </component>
 </application>
