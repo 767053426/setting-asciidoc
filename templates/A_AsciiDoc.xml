@@ -45,6 +45,9 @@
     <variable name="LANG" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
     <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
   </template>
   <template name="table2" value="|===&#10;| $cell1header$ | $cell2header$&#10;&#10;| $cell1row1$&#10;| $cell2row1$&#10;&#10;| $cell1row2$&#10;| $cell2row2$&#10;|===" description="Table with two columns" toReformat="false" toShortenFQNames="true">
     <variable name="cell1header" expression="" defaultValue="&quot;HeaderCell1&quot;" alwaysStopAt="true" />
@@ -53,12 +56,24 @@
     <variable name="cell2row1" expression="" defaultValue="&quot;Row1Cell2&quot;" alwaysStopAt="true" />
     <variable name="cell1row2" expression="" defaultValue="&quot;Row2Cell1&quot;" alwaysStopAt="true" />
     <variable name="cell2row2" expression="" defaultValue="&quot;Row2Cell2&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
   </template>
   <template name="source" value="[source,$LANG$]&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="Source code" toReformat="false" toShortenFQNames="true">
     <variable name="LANG" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
   </template>
   <template name="include" value="include::$CONTEXT$[]$END$" description="Include" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="xref" value="xref:$CONTEXT$[]$END$" description="Cross Reference" toReformat="false" toShortenFQNames="true">
     <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="AsciiDoc" value="true" />
