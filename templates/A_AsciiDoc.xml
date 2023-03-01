@@ -97,4 +97,10 @@
   <template name="image" value="image::$FILENAME$[]&#10;&#10;$END$" description="Image" toReformat="false" toShortenFQNames="true">
     <variable name="FILENAME" expression="" defaultValue="&quot;filename.jpg&quot;" alwaysStopAt="true" />
   </template>
+  <template name="xxref" value="* xref:$CONTEXT$[]$END$" description="Cross Reference" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
 </templateSet>
