@@ -5,6 +5,21 @@
         <option name="iconType" value="FOLDER" />
         <option name="ownAssociations">
           <map>
+            <entry key="Mac">
+              <value>
+                <RegexAssociation>
+                  <option name="matcher" value="^\.?(mac(os)?|osx)$" />
+                  <option name="pattern" value="^\.?(mac(os)?|osx)$" />
+                  <option name="touched" value="true" />
+                  <option name="iconType" value="FOLDER" />
+                  <option name="name" value="Mac" />
+                  <option name="icon" value="/mac.svg" />
+                  <option name="iconColor" />
+                  <option name="folderColor" value="03A9F4" />
+                  <option name="folderIconColor" value="89DDFF" />
+                </RegexAssociation>
+              </value>
+            </entry>
             <entry key="Resources">
               <value>
                 <RegexAssociation>

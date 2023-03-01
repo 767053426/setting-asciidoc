@@ -1,32 +1,32 @@
 <templateSet group="A_AsciiDoc">
   <template name="&quot;" value="&quot;$SELECTION$&quot;" description="" toReformat="false" toShortenFQNames="false">
     <context>
-      <option name="AsciiDoc" value="true" />
+      <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="'" value="'$SELECTION$'" description="" toReformat="false" toShortenFQNames="false">
     <context>
-      <option name="AsciiDoc" value="true" />
+      <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="*" value="*$SELECTION$*" description="" toReformat="false" toShortenFQNames="false">
     <context>
-      <option name="AsciiDoc" value="true" />
+      <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="[" value="[$SELECTION$]" description="" toReformat="false" toShortenFQNames="false">
     <context>
-      <option name="AsciiDoc" value="true" />
+      <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="_" value="_$SELECTION$_" description="" toReformat="false" toShortenFQNames="false">
     <context>
-      <option name="AsciiDoc" value="true" />
+      <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="`" value="`$SELECTION$`" description="" toReformat="false" toShortenFQNames="false">
     <context>
-      <option name="AsciiDoc" value="true" />
+      <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="keyboard" value="kbd:[$VAR$]$END$" description="Keyboard" toReformat="false" toShortenFQNames="true">
@@ -35,7 +35,7 @@
       <option name="AsciiDoc" value="true" />
     </context>
   </template>
-  <template name="smart" value="$KEY$$SELECTION$$KEY$$END$" description="" toReformat="false" toShortenFQNames="false">
+  <template name="smart" value="$KEY$$SELECTION$$KEY$$END$" description="selection" toReformat="false" toShortenFQNames="false">
     <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="AsciiDoc" value="true" />
@@ -78,5 +78,23 @@
     <context>
       <option name="AsciiDoc" value="true" />
     </context>
+  </template>
+  <template name="youtube" value=".$NAME$&#10;video::$YOUTUBE$[youtube,lang=zh-CN]&#10;&#10;$END$" description="Youtube video" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="YOUTUBE" expression="" defaultValue="&quot;nPER_vv2SyU&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="admonition-para" value="$TYPE$: $TEXT$&#10;" description="admonition paragraph" toReformat="false" toShortenFQNames="false">
+    <variable name="TYPE" expression="enum(&quot;NOTE&quot;,&quot;TIP&quot;,&quot;IMPORTANT&quot;,&quot;CAUTION&quot;,&quot;WARNING&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="admonition-block" value="[$TYPE$]&#10;====&#10;$TEXT$&#10;====" description="admonition block" toReformat="false" toShortenFQNames="false">
+    <variable name="TYPE" expression="enum(&quot;NOTE&quot;,&quot;TIP&quot;,&quot;IMPORTANT&quot;,&quot;CAUTION&quot;,&quot;WARNING&quot;)" defaultValue="NOTE" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="image" value="image::$FILENAME$[]&#10;&#10;$END$" description="Image" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename.jpg&quot;" alwaysStopAt="true" />
   </template>
 </templateSet>
