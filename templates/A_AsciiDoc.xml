@@ -1,34 +1,4 @@
 <templateSet group="A_AsciiDoc">
-  <template name="&quot;" value="&quot;$SELECTION$&quot;" description="" toReformat="false" toShortenFQNames="false">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="'" value="'$SELECTION$'" description="" toReformat="false" toShortenFQNames="false">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="*" value="*$SELECTION$*" description="" toReformat="false" toShortenFQNames="false">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="[" value="[$SELECTION$]" description="" toReformat="false" toShortenFQNames="false">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="_" value="_$SELECTION$_" description="" toReformat="false" toShortenFQNames="false">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="`" value="`$SELECTION$`" description="" toReformat="false" toShortenFQNames="false">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
   <template name="keyboard" value="kbd:[$VAR$]$END$" description="Keyboard" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -99,6 +69,11 @@
   </template>
   <template name="xxref" value="* xref:$CONTEXT$[]$END$" description="Cross Reference" toReformat="false" toShortenFQNames="true">
     <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="ifdef" value="ifdef::env-idea[]&#10;$SELECTION$&#10;endif::[]" description="admonition block" toReformat="false" toShortenFQNames="false">
     <context>
       <option name="AsciiDoc" value="true" />
     </context>

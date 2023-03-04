@@ -1,0 +1,32 @@
+<templateSet group="A_General">
+  <template name="&quot;" value="&quot;$SELECTION$&quot;" description="" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="'" value="'$SELECTION$'" description="" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="*" value="*$SELECTION$*" description="" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="[" value="[$SELECTION$]" description="" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="_" value="_$SELECTION$_" description="" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="`" value="`$SELECTION$`" description="" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
